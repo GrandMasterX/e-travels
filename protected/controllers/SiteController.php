@@ -1,7 +1,7 @@
 <?php
 
-class SiteController extends Controller
-{
+class SiteController extends Controller {
+
     public $layout = 'main';
 	/**
 	 * Declares class-based actions.
