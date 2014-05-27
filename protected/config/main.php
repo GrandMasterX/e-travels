@@ -13,12 +13,17 @@ return array(
 	'preload'=>array('log'),
 
 	// autoloading model and component classes
+    'defaultController' => 'site/index',
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'application.extensions.*',
+        'application.vendors',
+        'application.modules.mobile',
 	),
-
-	'defaultController'=>'post',
+    'modules' => array(
+        'mobile',
+    ),
 
 	// application components
 	'components'=>array(
@@ -26,31 +31,25 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'db'=>array(
-			'connectionString' => 'sqlite:protected/data/blog.db',
-			'tablePrefix' => 'tbl_',
-		),
 		// uncomment the following to use a MySQL database
-		/*
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
+			'connectionString' => 'mysql:host=localhost;dbname=e-travels',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
-			'tablePrefix' => 'tbl_',
 		),
-		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+            'showScriptName'=>false,
+            'urlSuffix'=>'',
 			'rules'=>array(
-				'post/<id:\d+>/<title:.*?>'=>'post/view',
-				'posts/<tag:.*?>'=>'post/index',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                'mobile'=>'mobile/index',
+                '<controller>/<action>'=>'<controller>/<action>',
 			),
 		),
 		'log'=>array(
@@ -72,5 +71,5 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	'params'=>require(dirname(__FILE__).'/params.php'),
+	//'params'=>require(dirname(__FILE__).'/params.php'),
 );

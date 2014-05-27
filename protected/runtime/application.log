@@ -1,0 +1,713 @@
+2014/05/27 12:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/05/27 12:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/05/27 12:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/05/27 12:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/05/27 12:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2014/05/27 13:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:38:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:44:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:46:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ышеу".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('????????')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/%D1%8B%D1%88%D0%B5%D1%83
+---
+2014/05/27 13:46:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in Z:\home\mobile\www\framework\web\CController.php:483
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CController.php(270): CController->missingAction('')
+#1 Z:\home\mobile\www\framework\web\CWebApplication.php(282): CController->run('')
+#2 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site')
+#3 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\mobile\www\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/site
+---
+2014/05/27 13:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\mobile\www\framework\web\CWebApplication.php(141): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\mobile\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\mobile\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\mobile\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\mobile\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\mobile\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:59:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('favicon.ico')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/27 13:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobil".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobil')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobil
+---
+2014/05/27 13:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 13:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 13:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 14:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 14:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 14:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile
+---
+2014/05/27 14:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile.штвуч".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile.????????...')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile.%D1%88%D1%82%D0%B2%D1%83%D1%87
+---
+2014/05/27 14:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mobile/index".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('mobile/index')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/mobile/index
+---
+2014/05/27 14:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/js/mobile/form.js".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('static/js/mobil...')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/js/mobile/form.js
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:02:52 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%) OR (country like кие%)
+ORDER BY `city` ASC' at line 3. The SQL statement executed was: SELECT `id`, `cid`, `country`, `city`
+FROM `cities_ru`
+WHERE (city like кие%) OR (country like кие%)
+ORDER BY `city` ASC.
+2014/05/27 15:02:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%) OR (country like кие%)
+ORDER BY `city` ASC' at line 3' in Z:\home\e-travels\www\framework\yiilite.php:9341
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(41): CDbCommand->query()
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:02:52 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%) OR (country like киев%)
+ORDER BY `city` ASC' at line 3. The SQL statement executed was: SELECT `id`, `cid`, `country`, `city`
+FROM `cities_ru`
+WHERE (city like киев%) OR (country like киев%)
+ORDER BY `city` ASC.
+2014/05/27 15:02:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%) OR (country like киев%)
+ORDER BY `city` ASC' at line 3' in Z:\home\e-travels\www\framework\yiilite.php:9341
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(9260): CDbCommand->queryInternal('', 0, Array)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(41): CDbCommand->query()
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 15:54:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "list".' in Z:\home\e-travels\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(3790): CController->renderPartial('list', Array, true)
+#1 Z:\home\e-travels\www\protected\controllers\SiteController.php(46): CController->render('list', Array)
+#2 Z:\home\e-travels\www\framework\yiilite.php(4058): SiteController->actionGetCities()
+#3 Z:\home\e-travels\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\e-travels\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\e-travels\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\e-travels\www\framework\yiilite.php(1746): CController->run('getCities')
+#7 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('site/getCities')
+#8 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/site/getCities
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 16:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/js/mobile/bootstrap-datepicker.js".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('static/js/mobil...')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/js/mobile/bootstrap-datepicker.js
+HTTP_REFERER=http://e-travels/
+---
+2014/05/27 16:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/js/mobile/bootstrap-datepicker.js".' in Z:\home\e-travels\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\e-travels\www\framework\yiilite.php(1666): CWebApplication->runController('static/js/mobil...')
+#1 Z:\home\e-travels\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\e-travels\www\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/js/mobile/bootstrap-datepicker.js
+HTTP_REFERER=http://e-travels/
+---
