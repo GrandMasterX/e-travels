@@ -89,5 +89,12 @@ $(document).ready(function() {
         }
     });
 
+    $('#change_directions').on('click', function() {
+        var val1 = $('#search').val(),
+            val2 = $('#search2').val();
+
+        $('#search').val(val2);
+        $('#search2').val(val1);
+    });
 
 })
