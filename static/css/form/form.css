@@ -1,0 +1,2266 @@
+ @media print { /* ����� ��� ������ */
+    body {
+     display:none!important;
+    }
+    div.read-uslovia-vozvrata-div,div.read-uslovia-oformlenia-div {
+     display:block!important;
+    }
+}
+@charset "utf-8";
+
+/* New Form Styles begin */
+
+#search_banner_sidebar {
+
+    width: 960px;
+
+    margin: 0 auto;
+
+  /*  background-color: #1588c2;
+
+    background-image: url(../../images/form/searchbg.png);
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+	
+	background: url("../../images/form/formbg.png") repeat-x scroll center top #00A7FD;*/
+
+    color: #ffffff;
+
+    font-family: Verdana, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+#help_bot_form img {
+
+    float: right;
+
+    margin: 10px 15px;
+
+}
+
+.radivus {
+
+    border-radius: 3px;
+
+}
+
+.form_search {
+
+    padding: 10px 15px;
+
+}
+
+.form_search span {
+
+    /*argin: 0 20px 0 5px;*/
+	margin: 0 0 0 5px;
+
+}
+
+.help_online_1 {
+
+    width: 387px;
+
+    margin: 0 auto;
+
+}
+
+.help_online_1 img {
+
+    margin-top: 12px;
+
+}
+
+.ot_do {
+
+   /* width: 472px;
+    margin: 15px auto 0;*/
+    margin: 15px auto 0 0;
+    padding-left: 20px;
+	background: url("../../images/form/formbg.png") repeat-x scroll center top #00A7FD;
+
+}
+
+.ot_do_mar1 {
+
+    margin-bottom: 5px;
+
+}
+
+.ot_do_mar2 {
+
+    margin: 0 0 5px 15px;
+
+}
+
+.form_params1 {
+
+    margin: 7px 0;
+height: 17px;
+width: 180px;
+    /*background: url("../../images/form/select.png") no-repeat top;*/
+
+}
+
+.form_params2 {
+
+    /*margin: 7px 0 7px 15px;*/
+	margin: 7px 0;
+height: 17px;
+width: 180px;
+}
+
+.startCountriesI {
+
+    width: 230px;
+
+    height: 27px;
+
+    color: #818181;
+
+    vertical-align: middle;
+
+}
+
+.sendCountriesI {
+
+    width: 230px;
+
+    height: 27px;
+
+    color: #818181;
+
+    vertical-align: middle;
+
+}
+
+.startCitiesI {
+
+    width: 230px;
+
+    height: 27px;
+
+    color: #818181;
+
+    vertical-align: middle;
+
+    /* display: none;*/
+
+}
+
+.endCitiesI {
+
+    width: 230px;
+
+    height: 27px;
+
+    color: #818181;
+
+    vertical-align: middle;
+
+    /*display: none;*/
+
+}
+
+.stardateblock {
+
+    /*margin: 10px 0 10px 15px;*/
+margin: 10px 0;
+}
+
+.stardateblock span {
+
+    padding-left: 2px;
+
+}
+
+.stardateblock1 {
+
+    margin-top: 10px;
+
+    width: 50px;
+
+}
+
+.stardateblock2 {
+
+  /*  margin: 0 0 10px 15px;*/
+/*margin-left: 15px;*/
+}
+
+.stardateblock2 span {
+
+    padding-left: 0;
+
+}
+
+.startDate {
+
+    color: #818181;
+
+    height: 20px;
+
+    width: 50px;
+
+}
+
+.backDate {
+
+    color: #818181;
+
+    height: 20px;
+
+    width: 50px;
+
+}
+
+.TiketsCounter {
+
+    width: 45px;
+    float: right;
+    margin-right: 40px;
+    color: #818181;
+    /* height: 25px;*/
+    height: 20px;
+
+}
+
+.tiket_counter {
+
+    /*padding: 10px 0 10px 2px;*/
+
+}
+
+.skidki_plus {
+
+    padding-left: 0px;
+/*margin-left: 15px;*/
+
+    cursor: pointer;
+    margin: 10px 0;
+    padding-left: 0;
+    width: 221px;
+    cursor: pointer;
+
+}
+
+.skidki_plus span {
+
+    text-decoration: underline;
+
+    color: #ffffff;
+
+}
+
+.skidki_plus img {
+
+    margin: 6px 40px 3px 3px;
+
+    float: right;
+
+}
+
+.find-btn {
+
+    width: 180px;
+
+    height: 43px;
+
+    background-image: url(../../images/form/helpbg2.png);
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+
+    margin: 10px auto;
+
+    vertical-align: middle;
+
+    color: #016597;
+
+    cursor: pointer;
+
+}
+
+.find-btn div {
+
+    padding: 12px 30px;
+
+    text-align: left;
+
+    font-size: 13px;
+
+}
+
+.find-btn1 {
+
+    text-align: center;
+
+}
+
+.find-btn1 a {
+
+    color: #016597;
+
+    text-decoration: none;
+
+}
+
+.find-btn1 a:hover {
+
+    color: #016597;
+
+    text-decoration: underline;
+
+}
+
+.discountsTable table {
+
+    width: 100%;
+
+}
+
+.discountsTable td {
+
+    text-align: center;
+
+    font-weight: normal;
+
+}
+
+.online_font_top {
+    font-size: 13px;
+    margin: 15px 10px 0 0;
+    text-align: right;
+
+}
+
+.online_font_top2 {
+
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.online_font_middle {
+
+    margin: 3px 0 3px 260px;
+
+    text-align: left;
+
+    font-size: 13px;
+
+}
+
+.onlinetable {
+
+    background-image: url(../../images/form/tetka_onlile.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+    background-position: 33px 12px;
+
+}
+
+.online_font_middle  p {
+
+    font-size: 14px;
+
+    margin-top: 10px;
+
+}
+
+.disable {
+
+    position: relative;
+
+    margin: 0 0 0 15px;
+
+    filter: alpha(opacity:80);
+
+    KHTMLOpacity: 0.80;
+
+    MozOpacity: 0.80;
+
+    opacity: 0.80;
+
+}
+
+.disable:after {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    content: "";
+
+}
+
+.endisable {
+
+    filter: alpha(opacity:100);
+
+    KHTMLOpacity: 1.0;
+
+    MozOpacity: 1.0;
+
+    opacity: 1.0;
+
+    content: inherit;
+
+    margin: 0 0 0 15px;
+
+}
+
+/* bubble tooltip begin */
+
+a.tt {
+
+    position: relative;
+
+    z-index: 24;
+
+    color: #325e9d;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+a.tt span {
+    display: none;
+}
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+
+a.tt:hover {
+    z-index: 25;
+    color: #325e9d;
+    background: none;
+}
+
+a.tt:hover span.tooltip {
+
+    display: block;
+
+    position: absolute;
+
+    top: 0px;
+    left: 0;
+
+    padding: 15px 0 0 0;
+
+    width: 200px;
+
+    color: #325e9d;
+
+    text-align: left;
+
+    /*filter: alpha(opacity:100);
+
+    KHTMLOpacity: 0.80;
+
+    MozOpacity: 0.80;
+
+    opacity: 0.80;*/
+
+}
+
+a.tt:hover span.top {
+
+    display: block;
+
+    padding: 30px 8px 0;
+
+}
+
+a.tt:hover span.middle {
+    /* different middle bg for stretch */
+
+    display: block;
+
+    padding: 0 8px;
+
+}
+
+a.tt:hover span.middle img {
+
+    border: 1px solid #818181;
+
+    width: 350px;
+
+    border-radius: 5px;
+
+}
+
+a.tt:hover span.bottom {
+
+    display: block;
+
+    padding: 3px 8px 10px;
+
+    color: #325e9d;
+
+}
+
+/* bubble tooltip end */
+
+/* wrap block skidki begin */
+
+.hideBtn {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    padding: 1px 0 5px 0;
+}
+
+.hideBtn.show {
+    display: block;
+}
+
+.hideCont {
+    display: none;
+}
+
+/* wrap block skidki end */
+
+/* New Form Styles end */
+
+/* Content online form begin */
+
+#contentI, #getskidki {
+
+    margin: 0 auto;
+
+    /*width: 960px;*/
+
+}
+
+#getskidki {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    color: #FFF;
+
+    overflow: auto;
+
+    height: 200px;
+
+}
+
+#getskidki input {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.rezpoiska {
+
+    color: #484848;
+
+    font-size: 13px;
+
+    padding: 15px 0;
+
+}
+
+.rezpoiska span {
+
+    color: #016597;
+
+}
+
+.rezpoiska strong {
+
+    color: #484848;
+
+}
+
+.navigastranic {
+
+    color: #016597;
+
+    font-size: 12px;
+
+}
+
+.navigastranic span {
+
+    padding-right: 10px;
+
+}
+
+.navigastranic a {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #016597;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg2.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+.navigastranic a:hover {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg3.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+.navigastranic a:active {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #cbcbcb;
+
+    padding: 7px 10px;
+
+    background-color: #016597;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg3.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+.navigastranic ul {
+
+    margin: 0;
+
+    padding: 0;
+
+    list-style-type: none;
+
+    display: inline;
+
+}
+
+.navigastranic li {
+
+    display: inline;
+
+}
+
+.navigastranic div {
+
+    float: right;
+
+}
+
+.rezpoisk2 {
+
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.shapka {
+
+    background: #0075A6;
+
+    color: #ffffff;
+
+    border-radius: 3px 3px 0 0;
+
+    width: 960px;
+
+    margin: 0 auto;
+
+}
+
+.shapkaniz, .shapkaniz22, .shapkaniz23 {
+
+    width: 960px;
+
+    background: #0075A6;
+
+    border-radius: 0 0 3px 3px;
+
+    height: 40px;
+
+}
+
+.srpp {
+
+    width: 960px;
+
+    margin: 1px auto;
+
+    border-top: 1px solid #323232;
+
+    border-bottom: 1px solid #323232;
+
+    background: #f6f6f6;
+
+    color: #484848;
+
+    font-size: 12px;
+	font-family: verdana;
+
+}
+
+.srpp:hover, .srpp-selected {
+
+    border-top: 1px solid #818181;
+
+    border-bottom: 1px solid #818181;
+
+    background: #e5e5e5;
+
+}
+
+/*.srpp:active {
+
+	border-top: 1px solid #cbcbcb;
+
+	border-bottom: 1px solid #cbcbcb;
+
+	background: #ffffff;
+
+}*/
+
+.vpd {
+
+   /* padding-right: 10px;*/
+
+}
+
+.vpd span {
+
+    color: #000000;
+
+   /* font-weight: bold;*/
+
+}
+
+.vpd p {
+
+    margin: 0 0 0 0;
+
+}
+
+.stoimostb {
+
+   /* padding: 5px 0 5px 15px;*/
+
+}
+
+.stoimostb span {
+
+    font-size: 12px;
+
+    color: #000000;
+
+}
+
+.stoimostb span.skidkachek {
+    color: #016597 !important;
+    font-size: 11px !important;
+}
+
+.stoimostb span.skidkachek:hover {
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}
+
+.reddd {
+
+    /*color: #408d40;*/
+	color: #0075A6;
+
+}
+
+.greennn {
+
+    color: #01458f;
+
+}
+
+.reysmesta {
+
+   /* float: right;
+
+    text-align: center;
+
+    padding-right: 10px;*/
+
+}
+
+.padreysik {
+
+    padding-left: 10px;
+	line-height: 22px;
+
+}
+
+.perevchika {
+
+    font-size: 12px;
+
+    color: #016597;
+
+}
+
+.vmzbilet {
+
+    color: #016597;
+
+    font-size: 10px;
+
+}
+
+.vmzbilet div {
+    background-image: url("../../images/form/336.png");
+    background-position: center center;
+    background-repeat: repeat-x;
+    border-radius: 3px 3px 3px 3px;
+    cursor: default;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+	line-height: 12px;
+}
+.vmzbilet div:hover {
+    background-image: url("../../images/form/338.png");
+    background-position: center center;
+    background-repeat: repeat-x;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+/*
+.vmzbilet div {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #016597;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg2.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+    cursor: default;
+
+}
+
+
+
+
+.vmzbilet div:hover {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+*/
+
+
+div.lock-seats {
+    background-color: #016597;
+    background-image: url("../../images/form/knpkbg2.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    cursor: default;
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+margin: 0 auto 10px;
+width:100px;
+}
+div.lock-seats:hover{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #5d5d5d;
+    border-radius: 3px;
+    background-image: url(../../images/form/knpkbg3.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+	cursor:pointer;
+}
+div.lock-seats[disabled=disabled] {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #5d5d5d;
+    border-radius: 3px;
+    background-image: url(../../images/form/knpkbg.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+	cursor:default!important;
+}
+.avtobusik {
+
+    font-size: 13px;
+
+    width: 960px;
+
+    background: #ffffff;
+
+    margin: 1px auto;
+
+    padding: 2px 0;
+
+    border-bottom: 1px dotted #cdcdcd;
+
+}
+
+.kursorchuktik {
+
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px auto;
+    text-align: left;
+    width: 960px;
+
+}
+
+.modelavto {
+
+    width: 960px;
+
+    margin: 15px auto;
+
+    text-align: center;
+
+}
+
+.vmbkuku {
+
+    margin: 0 auto;
+
+    width: 993px;
+
+}
+
+.podskazkamest {
+
+    margin-left: 20px;
+
+}
+
+.podskazkamest img {
+
+    margin: 5px;
+
+}
+
+.mestachusediv {
+
+    background-image: url(../../images/form/bus-back.png);
+
+    background-position: right;
+
+    background-repeat: no-repeat;
+
+}
+
+.kabinkaavtobusika {
+
+    background-image: url(../../images/form/bus-cabine.png);
+
+    background-position: left;
+
+    background-repeat: no-repeat;
+
+    width: 100px;
+
+}
+
+.mestachuse {
+
+    margin: 0 10px;
+    cursor: default;
+
+}
+
+.mestachuse td {
+
+    width: 30px;
+
+    height: 30px;
+
+    vertical-align: middle;
+
+    text-align: center;
+
+}
+
+.mestachusefree {
+
+    background-image: url(../../images/form/free-seat.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.mestachusefree:hover {
+
+    background-image: url(../../images/form/checked-seat.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.mestachusefree:active {
+
+    background-image: url(../../images/form/checked-seat.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.mestachusebooked {
+
+    background-image: url(../../images/form/booked-seat.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.mestachusechoose {
+
+    background-image: url(../../images/form/checked-seat.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.danniedrona {
+
+    width: 960px;
+
+    margin: 1px auto;
+
+    padding: 15px 0;
+
+    border-top: 1px dotted #cdcdcd;
+
+    border-bottom: 1px dotted #cdcdcd;
+
+}
+
+.danniedrona table td, .oformlenie_drona table td, .buybuy_dron table td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mesto_drona {
+
+    background-image: url(../../images/form/mesto.png);
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+
+    width: 80px;
+
+    height: 27px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+    line-height: 27px;
+
+}
+
+.tipa_dron, .danni_drona, .dopolnenie_drona, .imya_drona, .imya_dron, .familia_dron, .email_drom, .telefona_dron {
+
+    width: 160px;
+
+    margin: 0 auto;
+
+    color: #818181;
+
+}
+
+.tipa_dron {
+
+    height: 27px;
+
+}
+
+.danni_drona, .dopolnenie_drona, .imya_drona, .imya_dron, .familia_dron, .email_drom, .telefona_dron {
+
+    height: 21px;
+
+}
+
+.stoimostdronabilet {
+
+    text-align: right;
+
+    padding-right: 10px;
+
+}
+
+.summakoplatedron {
+
+    /*width: 1014px;*/
+
+    margin: 10px 10px 10px 0;
+
+    text-align: right;
+
+}
+
+.summakoplatedron span {
+
+    color: #000000;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.oformleniedrona {
+
+    width: 960px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #1588c2;
+
+    font-size: 14px;
+
+    border-top: 1px dotted #cdcdcd;
+
+    padding-top: 15px;
+
+}
+
+.oformlenie_drona {
+
+    width: 960px;
+
+    margin: 15px 0 15px 5px;
+
+    text-align: left;
+
+}
+
+.checkdrons div {
+
+    margin: 5px 10px;
+
+    color: #818181;
+
+}
+
+.bookfree {
+    margin: 15px auto;
+    padding-left: 20px;
+    text-align: right;
+    display: block;
+    color: #016597;
+}
+
+.bookfree td {
+    width: 150px;
+}
+
+.buybuy_dron {
+padding: 0px;
+    margin: 15px auto;
+
+    padding-left: 350px;
+
+    text-align: right;
+
+    display: block;
+
+    color: #016597;
+
+}
+
+.buybuy_dron td {
+
+    width: 150px;
+
+}
+
+.buybuy_dron p, .bookfree p {
+
+   /* margin-top: 7px;*/
+    cursor: default;
+	padding: 0 !important;
+
+}
+
+.buybuy_dron div, .bookfree div {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #016597;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg2.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+width: 140px;
+   /* height: 40px;*/
+
+}
+
+.buybuy_dron div:hover, .bookfree div:hover {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg3.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+.buybuy_dron div[disabled=disabled] {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+
+.footerbeg {
+
+    height: 262px;
+
+    width: 960px;
+
+    margin: 0 auto;
+
+    color: #ffffff;
+
+    font-size: 9px;
+
+    display: block;
+
+}
+
+.footerbeg div {
+
+    padding: 30px 15px 0 10px;
+
+}
+
+.footerbeg a {
+
+    color: #ffffff;
+
+    margin: 0 5px;
+
+    text-decoration: none;
+
+}
+
+.footerbeg a:hover {
+
+    color: #ffffff;
+
+    text-decoration: underline;
+
+}
+
+/* Content online form end */
+
+td.tdhead {
+    background-color: #1588C2;
+}
+
+#ajax_loader {
+
+    position: relative;
+
+    text-align: center;
+
+    width: 100%;
+
+    padding: 5px;
+
+}
+
+#ajax_loader img {
+
+    margin: 0 auto;
+
+}
+
+.calendar {
+
+    cursor: pointer;
+
+}
+
+.autobus {
+
+    /* width: 510px;*/
+
+   /* height: 193px;*/
+
+}
+
+.transport-cabine {
+
+    width: 100px;
+
+    height: 193px;
+
+    background-position: left;
+
+    background-repeat: no-repeat;
+
+    float: left;
+
+}
+
+.transport-cabine.bus-cabine {
+
+    background-image: url(../../images/form/bus-cabine.png);
+
+}
+
+/* styles for bus with 8-rows - begin */
+.transport-cabine.bus-cabine-8-rows{
+background-image: url(../../images/form/bus-cabine-8-rows.png)!important;
+height: 291px!important;
+}
+.transport-salon.transport-salon-8-rows {
+height: 291px!important;
+background-image: url("../../images/form/bus-back-8-rows.png")!important;
+background-position: right;
+background-repeat: no-repeat;
+float: left;
+}
+.transport-salon.transport-salon-8-rows .seats {
+display: table!important;
+margin: 30px 5px 0 0!important;
+margin: 24px 5px 0 0 \9;
+}
+/* styles for bus with 8-rows - end */
+
+.transport-salon {
+
+    /*width: 410px;*/
+
+    height: 193px;
+
+    background-image: url("../../images/form/bus-back.png");
+
+    background-position: right;
+
+    background-repeat: no-repeat;
+
+    float: left;
+
+}
+
+.transport-salon .seats {
+
+    display: table;
+
+    margin: 24px 5px 0 0;
+margin: 16px 5px 0 0 \9;
+}
+
+.seats .seats-row {
+
+    display: table-row;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.seats .seat {
+
+    width: 30px;
+
+    height: 30px;
+
+    display: table-cell;
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+}
+.seats .seat span {display:block;margin-top:-5px; margin-right:3px;}
+
+.seat.seat-available {
+
+    cursor: pointer;
+
+    background-image: url("../../images/form/free-seat.png");
+
+}
+
+.seat.seat-available:hover {
+
+    background-image: url("../../images/form/checked-seat.png");
+
+}
+
+.seat.seat-not-available {
+
+    color: #fff;
+
+    background-image: url("../../images/form/booked-seat.png");
+
+}
+
+.seat.seat-reserved {
+
+    color: #fff;
+
+    background-image: url("../../images/form/checked-seat.png");
+
+}
+
+/*PopUp*/
+
+.popup_window {
+
+    width: 500px;
+
+    background-color: #2379a9;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    padding: 5px 0 10px 0;
+
+    position: absolute;
+
+    top: 10px;
+
+    border: 1px #FFF solid;
+
+}
+
+.popup_header {
+
+    background-color: #084067;
+
+    border-radius: 3px;
+
+    width: 470px;
+
+    margin: 0 auto;
+
+    padding: 5px 10px;
+
+    line-height: 30px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.popup_window_form {
+
+    padding-bottom: 5px;
+
+}
+
+.popup_window_form table {
+
+    width: 490px;
+
+    margin: 5px auto;
+
+}
+
+.popup_window_form td {
+
+    text-align: left;
+
+    vertical-align: middle;
+
+}
+
+.popup_window_form div {
+
+    margin: 3px;
+
+}
+
+.popup_window_form select, .popup_window_form input {
+
+    width: 220px;
+
+    color: #818181;
+
+}
+
+.popup_butom {
+
+    margin: 5px 0 10px 0;
+
+    text-align: center;
+
+}
+
+.popup_butom a, .popup_butom a:hover {
+
+    color: #ffffff;
+
+    padding: 7px 15px;
+
+
+    border: 2px solid #c1c1c1;
+
+    border-radius: 3px;
+
+}
+
+.popup_butom a {
+
+    text-decoration: none;
+
+}
+
+.popup_butom a:hover {
+
+    text-decoration: underline;
+
+}
+
+/*
+
+*//*-------------------------*//*
+
+.autobus {
+
+    width: 510px;
+
+    height: 184px;
+
+}
+
+
+
+.transport-cabine {
+
+    width: 100px;
+
+    height: 184px;
+
+    background-position: left;
+
+    background-repeat: no-repeat;
+
+    float: left;
+
+}
+
+
+
+.transport-cabine.bus-cabine {
+
+    background-image: url(../../images/form/bus-cabine.png);
+
+}
+
+
+
+.transport-salon {
+
+    width: 410px;
+
+    height: 184px;
+
+    background-image: url("../../images/form/bus-back.png");
+
+    background-position: right;
+
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.seat {
+
+    padding-top:5px;
+
+    width: 30px;
+
+    height: 25px;
+
+    float: left;
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+}
+
+
+
+.seat.seat-available {
+
+    background-image: url("../../images/form/free-seat.png");
+
+}
+
+
+
+.seat.seat-available:hover {
+
+    background-image: url("../../images/form/checked-seat.png");
+
+}
+
+
+
+.seat.seat-not-available {
+
+    background-image: url("../../images/form/booked-seat.png");
+
+}
+
+
+
+.seat.seat-reserved {
+
+    background-image: url("../../images/form/checked-seat.png");
+
+}*/
+
+/* UI */
+
+.ac-combobox {
+
+    /*width: 230px;*/
+
+    height: 28px;
+
+    color: #818181;
+
+    position: relative;
+
+    display: block;
+
+}
+
+.ac-combobox a:hover {
+
+    cursor: pointer;
+
+}
+
+.ac-autocomplete-input {
+
+    /*
+    height: 27px;
+*/
+    height: 18px;
+
+    width: 175px;
+
+    padding-left: 5px;
+
+    border: 1px solid #818181;
+
+    border-radius: 3px;
+
+    margin: 0;
+
+}
+
+.ui-autocomplete {
+    z-index: 10000 !important;
+}
+
+.ui-datepicker {
+    z-index: 10000 !important;
+}
+
+.ac-helper-hidden-accessible {
+
+    visibility: hidden;
+
+}
+
+.ac-combobox-toggle {
+
+    position: absolute;
+    /*
+        height: 27px;
+
+        width: 28px;*/
+    height: 20px;
+
+    width: 20px;
+
+    top: 0;
+
+    bottom: 0;
+
+    margin-left: -2px;
+
+    padding: 0;
+
+    border: 1px solid #818181;
+
+    background-color: #fff;
+
+    float: left;
+
+}
+
+.ac-state-default {
+
+    background-color: #e6e6e6;
+
+    border: 1px solid #818181;
+
+}
+
+.ac-corner {
+
+    border-radius: 3px;
+
+}
+
+.ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active {
+
+    text-decoration: none;
+
+}
+
+.ac-button-icon-only, .ac-button-icon-primary, .ac-icon, .ac-icon-triangle-1-s, .ac-button-text {
+
+    position: absolute;
+
+    top: 50%;
+
+    margin-top: -14px;
+
+}
+
+.ac-state-default, .ac-icon {
+
+    background: url("../../images/form/ac-buttom.png") no-repeat 50% #fff;
+right: -20px;
+}
+
+.ac-icon {
+
+    overflow: hidden;
+
+}
+
+.ui-autocomplete {
+
+    max-height: 200px;
+
+    overflow: auto;
+
+}
+
+.check_seats {
+
+    text-transform: uppercase;
+
+}
+
+.ajax-loader-line {
+
+    text-align: center;
+
+}
+
+.field_error {
+
+    border: 3px #FF0000 solid;
+
+}
+
+.order_block {
+
+    position: relative;
+
+    background: #FFF;
+
+    margin: 0 20px 20px 20px;
+
+}
+
+.order_header {
+
+    position: relative;
+
+    background: #0075A6;
+
+    color: #FFF;
+
+    min-height: 40px;
+
+    -webkit-border-top-left-radius: 3px;
+
+    -webkit-border-top-right-radius: 3px;
+
+    -moz-border-radius-topleft: 3px;
+
+    -moz-border-radius-topright: 3px;
+
+    border-top-left-radius: 3px;
+
+    border-top-right-radius: 3px;
+
+}
+
+.order_header .order_hf_content {
+
+    padding: 9px 14px;
+font-size: 18px;
+}
+
+.order_separator_top {
+
+    border-top: 1px dotted #828282;
+
+    margin-top: 1px;
+
+    position: relative;
+
+    height: 3px;
+
+    background-color: #f6f6f6;
+
+}
+
+.order_separator_bottom {
+
+    border-bottom: 1px dotted #828282;
+
+    margin-bottom: 1px;
+
+    position: relative;
+
+    height: 3px;
+
+    background-color: #f6f6f6;
+
+}
+
+.order_body {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.order_content {
+
+    position: relative;
+font-size: 14px;
+    padding: 25px 13px;
+
+}
+
+.order_footer {
+
+    position: relative;
+
+    background: #0075A6;
+
+    color: #FFF;
+
+    min-height: 40px;
+
+    -webkit-border-bottom-left-radius: 3px;
+
+    -webkit-border-bottom-right-radius: 3px;
+
+    -moz-border-radius-topleft: 3px;
+
+    -moz-border-radius-topright: 3px;
+
+    border-bottom-left-radius: 3px;
+
+    border-bottom-right-radius: 3px;
+
+}
+
+.btn {
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    padding: 7px 10px;
+
+    background-color: #016597;
+
+    display: block;
+
+    color: #ffffff;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg2.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+    height: 50px;
+
+    width: 120px;
+
+    cursor: pointer;
+
+}
+
+.btn:hover {
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg3.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+
+}
+
+.btn[disabled=disabled] {
+    color: #ffffff;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 7px 10px;
+
+    background-color: #5d5d5d;
+
+    border-radius: 3px;
+
+    background-image: url(../../images/form/knpkbg.png);
+
+    background-position: center top;
+
+    background-repeat: repeat-x;
+    cursor:default;
+}
+
+span.visa_pay {
+    display: block;
+    background-image: url(../../images/form/visa_pay3.png);
+    background-position: 0 8px;
+    width: 77px;
+    height: 29px;
+    color: white;
+    padding-top: 71px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+}
+
+span.visa_pay:hover {
+    background-position: -77px 8px;
+}
+
+span.terminal_pay {
+    background-image: url("../../images/form/terminal_pay3.png");
+    background-position: -5px 8px;
+    background-repeat: no-repeat;
+    color: white;
+    display: block;
+    font-size: 10px;
+    height: 29px;
+    padding-top: 79px;
+    width: 100px;
+}
+
+span.terminal_pay:hover {
+    background-position: -120px 8px;
+}
+
+span.booking_pay {
+    display: block;
+    background-image: url(../../images/form/booking_pay3.png);
+    background-position: 0 8px;
+    width: 87px;
+    height: 32px;
+    color: white;
+    padding-top: 71px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+}
+
+span.booking_pay:hover {
+    background-position: -86px 6px;
+}
+
+span.kassa_pay {
+    display: block;
+    background-image: url(../../images/form/kassa_pay3.png);
+    background-position: 0 8px;
+    width: 90px;
+    color: white;
+    height: 31px;
+    padding-top: 75px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+}
+
+span.kassa_pay:hover {
+    background-position: -90px 8px;
+}
+
+span.office_pay {
+    display: block;
+    background-image: url(../../images/form/office_pay3.png);
+    background-position: 0 8px;
+    width: 71px;
+    color: white;
+    height: 31px;
+    padding-top: 75px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+}
+
+span.office_pay:hover {
+    background-position: -71px 8px;
+}
+
+a.pways_a:hover {
+    text-decoration: none;
+}
+
+
+div.podskazki2{position:absolute;color: #01458F}
+div.podskazki2 span.podskazka-more-seats,div.podskazki2 span.podskazka-skidki,div.podskazki2 span.calls{display:block; margin-right:10px;float: left;color: #1588C2;
+background-image: url(../../images/form/ask.png);
+padding-left:20px;
+background-repeat: no-repeat;
+cursor:pointer;
+}
+div.podskazki2 span.calls{background-image: url(../../images/form/ask2.png)!important;cursor:default!important;}
+span.podskazka-skidki-txt,span.podskazka-more-seats-txt{    background: none repeat scroll 0 0 white;
+    border: 1px solid #1588C2;
+    color: grey;
+    display: none;
+	z-index:1000;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 22px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    width: 200px;}
+span.podskazka-more-seats-txt{right: -13px;}
+span.podskazka-skidki-txt{left: 0;}
+img.corner{position:absolute;margin-top: -20px;}
+
+
+span.read-uslovia-vozvrata,span.read-uslovia-oformlenia,span.read-uslovia-vozvrata-active,span.read-uslovia-oformlenia-active{
+    color: #1588C2;
+    cursor: pointer;
+    display: block;
+	margin: 10px;
+}
+div.read-uslovia-vozvrata-div,div.read-uslovia-oformlenia-div{
+	border: 1px solid;
+    display: none;
+    height: 200px;
+    overflow: auto;
+    padding: 5px;
+    white-space: normal;
+}
+.ui-menu .ui-menu-item a {
+    font-size: 13px!important;
+}
+ul.ui-autocomplete {
+    width:194px!important;
+}
+
+span.podskazka-adress{background: none repeat scroll 0 0 white;
+    border: 1px solid #1588C2;
+    color: grey;
+    display: none;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 22px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    max-width: 200px;
+	margin-left: -16px;
+	z-index: 1000;
+	}
+@media all and (-webkit-min-device-pixel-ratio:0) {
+  /*����� ����� ��� �����*/
+  span.podskazka-input{ margin-top: 8px!important;margin-left: 0px!important;}
+}	
+span.podskazka-input{background: none repeat scroll 0 0 white;
+    border: 1px solid #1588C2;
+    color: grey;
+    display: none;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 33px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    max-width: 200px;
+	margin-left: -16px;
+	z-index: 1000;
+	}	
+div.show_tooltip	span.podskazka-adress,span.podskazka-input{font-size: 11px!important;max-width: 800px!important;min-width:200px;}
+div.show_tooltip	span.podskazka-adress ul li{margin-left:20px;margin-top:5px;}
+span.systemMessage{    border: 1px solid #CCCCCC;
+border-radius:3px;
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;}

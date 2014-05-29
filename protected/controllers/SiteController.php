@@ -1,6 +1,6 @@
 <?php
 
-class SiteController extends Controller {
+class SiteController extends Bus {
 
     public $layout = 'main';
 	/**
@@ -22,12 +22,35 @@ class SiteController extends Controller {
 		);
 	}
 
+    public function actionIndex() {
+        $form = $this->actionCreateSession();
+        $this->render('index', array('form' => $form ));
+    }
+
+    public function actionRegister() {
+        $this->render('register');
+    }
+
+    public function actionContacts() {
+        $this->render('contacts');
+    }
+
+    public function actionReservation() {
+        $this->render('reservation');
+    }
+
+    public function actionContent($alias) {
+        $model = Content::model()->findByAttributes(array('alias'=>$alias));
+        $form = $this->actionCreateSession();
+        $this->render('index',array('model'=>$model,'form'=>$form));
+    }
+
     public function actionLogin() {
         $serviceName = Yii::app()->request->getQuery('service');
         if (isset($serviceName)) {
             /** @var $eauth EAuthServiceBase */
             $eauth = Yii::app()->eauth->getIdentity($serviceName);
-            $eauth->redirectUrl = 'http://localhost/';//Yii::app()->user->returnUrl;
+            $eauth->redirectUrl = Yii::app()->user->returnUrl;
             $eauth->cancelUrl = $this->createAbsoluteUrl('site/login');
 
             try {
@@ -38,7 +61,7 @@ class SiteController extends Controller {
                     // successful authentication
                     if ($identity->authenticate()) {
                         Yii::app()->user->login($identity);
-                        //var_dump($identity->id, $identity->name, Yii::app()->user->id);exit;
+                        var_dump($identity->id, $identity->name, Yii::app()->user->id);exit;
 
                         // special redirect with closing popup window
                         $eauth->redirect();
@@ -65,10 +88,6 @@ class SiteController extends Controller {
 	/**
 	 * This is the action to handle external exceptions.
 	 */
-
-    public function actionIndex() {
-        $this->render('index');
-    }
 
     public function actionGetCities() {
         $results = Yii::app()->db->createCommand()

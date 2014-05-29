@@ -59,6 +59,10 @@ return array(
                 'login/<service:(google|google-oauth|yandex|yandex-oauth|twitter|linkedin|vkontakte|facebook|steam|yahoo|mailru|moikrug|github|live|odnoklassniki)>' => 'site/login',
                 'login' => 'site/login',
                 'logout' => 'site/logout',
+                'contacts' => 'site/contacts',
+                'register' => 'site/register',
+                'reservation' => 'site/reservation',
+                '<alias>' => 'site/content',
                 '<controller>/<action>'=>'<controller>/<action>',
 			),
 		),
@@ -91,8 +95,8 @@ return array(
                 'google-oauth' => array(
                     // register your app here: https://code.google.com/apis/console/
                     'class' => 'GoogleOAuthService',
-                    'client_id' => '328492189285-kf37f73paqje5hl3cji776gkqsf98m9e.apps.googleusercontent.com',
-                    'client_secret' => 'wJUq3v4Ws-Uzt5E3gWBnnF6T',
+                    'client_id' => '328492189285-hr507tse7c2bq3ghnqm15338v4dgt82n@developer.gserviceaccount.com',
+                    'client_secret' => 'nFuKJD-KCbQ-Pkac_Je7TJzf',
                     'title' => 'Google (OAuth2)',
                 ),
                 'vkontakte' => array(
