@@ -6,6 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 Yii::setPathOfAlias('modules', dirname(__FILE__).'/../modules');
+Yii::setPathOfAlias('widgets', dirname(__FILE__).'/../components/widgets');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Yii Blog Demo',
@@ -62,6 +63,8 @@ return array(
                 'contacts' => 'site/contacts',
                 'register' => 'site/register',
                 'reservation' => 'site/reservation',
+                'mobile' => 'mobile/default/index',
+                'privatoffice' => 'privatoffice/default/index',
                 '<alias>' => 'site/content',
                 '<controller>/<action>'=>'<controller>/<action>',
 			),
@@ -81,32 +84,9 @@ return array(
 				*/
 			),
 		),
-        'loid' => array(
-            'class' => 'ext.lightopenid.loid',
-        ),
         'cache' => array(
             //'class' => 'CApcCache',
             'class' => 'CFileCache',
-        ),
-        'eauth' => array(
-            'class' => 'ext.eauth.EAuth',
-            'popup' => true, // Use the popup window instead of redirecting.
-            'services' => array( // You can change the providers and their classes.
-                'google-oauth' => array(
-                    // register your app here: https://code.google.com/apis/console/
-                    'class' => 'GoogleOAuthService',
-                    'client_id' => '328492189285-hr507tse7c2bq3ghnqm15338v4dgt82n@developer.gserviceaccount.com',
-                    'client_secret' => 'nFuKJD-KCbQ-Pkac_Je7TJzf',
-                    'title' => 'Google (OAuth2)',
-                ),
-                'vkontakte' => array(
-                    // register your app here: https://vk.com/editapp?act=create&site=1
-                    'class' => 'VKontakteOAuthService',
-                    'client_id' => '4385603',
-                    'client_secret' => 'I0l0fF2fTMqcJYEXSpgZ',
-                    'title' => 'VKontakte',
-                ),
-            ),
         ),
 	),
 

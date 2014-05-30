@@ -6,21 +6,31 @@ class SiteController extends Bus {
 	/**
 	 * Declares class-based actions.
 	 */
-	public function actions()
-	{
-		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
-			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
-			),
-			// page action renders "static" pages stored under 'protected/views/site/pages'
-			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
-			),
-		);
-	}
+    public function actions()
+    {
+        return array(
+            'oauth' => array(
+                // the list of additional properties of this action is below
+                'class'=>'ext.hoauth.HOAuthAction',
+                // Yii alias for your user's model, or simply class name, when it already on yii's import path
+                // default value of this property is: User
+                'model' => 'User',
+                // map model attributes to attributes of user's social profile
+                // model attribute => profile attribute
+                // the list of avaible attributes is below
+                'attributes' => array(
+                    'email' => 'email',
+                    'fname' => 'firstName',
+                    'lname' => 'lastName',
+                    'gender' => 'genderShort',
+                    'birthday' => 'birthDate',
+                    // you can also specify additional values,
+                    // that will be applied to your model (eg. account activation status)
+                    'acc_status' => 1,
+                ),
+            ),
+        );
+    }
 
     public function actionIndex() {
         $form = $this->actionCreateSession();
@@ -43,46 +53,6 @@ class SiteController extends Bus {
         $model = Content::model()->findByAttributes(array('alias'=>$alias));
         $form = $this->actionCreateSession();
         $this->render('index',array('model'=>$model,'form'=>$form));
-    }
-
-    public function actionLogin() {
-        $serviceName = Yii::app()->request->getQuery('service');
-        if (isset($serviceName)) {
-            /** @var $eauth EAuthServiceBase */
-            $eauth = Yii::app()->eauth->getIdentity($serviceName);
-            $eauth->redirectUrl = Yii::app()->user->returnUrl;
-            $eauth->cancelUrl = $this->createAbsoluteUrl('site/login');
-
-            try {
-                if ($eauth->authenticate()) {
-                    //var_dump($eauth->getIsAuthenticated(), $eauth->getAttributes());
-                    $identity = new EAuthUserIdentity($eauth);
-
-                    // successful authentication
-                    if ($identity->authenticate()) {
-                        Yii::app()->user->login($identity);
-                        var_dump($identity->id, $identity->name, Yii::app()->user->id);exit;
-
-                        // special redirect with closing popup window
-                        $eauth->redirect();
-                    }
-                    else {
-                        // close popup window and redirect to cancelUrl
-                        $eauth->cancel();
-                    }
-                }
-
-                // Something went wrong, redirect to login page
-                $this->redirect(array('site/login'));
-            }
-            catch (EAuthException $e) {
-                // save authentication error to session
-                Yii::app()->user->setFlash('error', 'EAuthException: '.$e->getMessage());
-
-                // close popup window and redirect to cancelUrl
-                $eauth->redirect($eauth->getCancelUrl());
-            }
-        }
     }
 
 	/**

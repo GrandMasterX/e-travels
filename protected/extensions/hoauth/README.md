@@ -54,7 +54,26 @@ Installation and Usage
 
 * [instruction for yii-user](https://github.com/SleepWalker/hoauth/wiki/%5Binstall%5D-hoauth-and-yii-user-extension)
 
-**1\.** Simply copy the files in your `extensions` directory (or in any other directory you want).
+**1\.** Make `hoauth` directory in your `extensions` directory (or in any other directory you want) and copy the content files there.
+Directory structure example:
+```php
+/protected/
+   extesions/
+      hoauth/
+         hybridauth/
+         messages/
+         models/
+         views/
+         widgets/
+         .gitignore
+         CHANGELOG
+         DummyUserIdentity.php
+         HOAuthAction.php
+         HOAuthAdminAction.php
+         MIT-LICENSE.txt
+         README.md
+         UPGRADE.md
+```
 
 **2\.** Edit your controller source code (eg. `SiteController` class with `actionLogin()` method) to add new actions:
 ```php
@@ -116,12 +135,27 @@ class SiteController extends Controller
 
 **5\.** Add social login widget to your login page view (you can use `route` property, when you placing your widget not in the same module/controller as your `oauth` action):
 ```php
-<?php $this->widget('ext.hoauth.widget.HOAuth'); ?>
+<?php $this->widget('ext.hoauth.widgets.HOAuth'); ?>
 ```
+This widget can be switched to icon view using `onlyIcons` property. It may be also usefull the properties to adjust popup window size: `popupWidth` and `popupHeight`. See `HOAuth.php` file for details.
 
 **Optional:**
 **6\.** When you planning to use social networks like **Twitter**, that returns no email from user profile, you should declare `verifyPassword($password)` or `validatePassword($password)` method in `User` model, that should take the password (not hash) and return `true` if it is valid.
 **7\.** You can also declare the `sendActivationMail()` method, that should mark the user account as inactive and send the mail for activation. This method, when it's exists will be used for social networks like **Twitter**, that give us no data about user's email (because we need to proof that user entered the right email).
+
+Note
+----
+If you want to correctly display the facebook popup, you should add `"display" => "popup"` to the Facebook configuration array in `protected/config/hoauth.php`. E.g.:
+```php
+...
+"Facebook" => array ( 
+  "enabled" => true,
+  "keys"    => array ( "id" => "PUT_YOURS_HERE", "secret" => "PUT_YOURS_HERE" ), 
+  "scope"   => "email, user_about_me, user_birthday, user_hometown", // you can change the data, that will be asked from user
+  "display" => "popup" // <- this one
+)
+...
+```
 
 Available social profile fields
 -------------------------------
