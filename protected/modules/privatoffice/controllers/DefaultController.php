@@ -4,14 +4,19 @@ class DefaultController extends Controller {
     public $layout = '/layouts/profile';
 
     public function actionIndex() {
+        $this->render('index');
+    }
+
+    public function actionProfiles() {
         $model = new Profile();
 
-        if(isset($_POST['ajax']) && $_POST['ajax']==='profile-form') {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
+        if(isset($_POST['Profile']) && !empty($_POST['Profile'])) {
+
+            $model->attributes = $_POST['Profile'];
+            if($model->validate() && $model->save())
+                Yii::app()->user->setFlash('success', "Data saved!");
         }
 
-
-        $this->render('index', array('model'=>$model));
+        $this->render('profiles', array('model'=>$model));
     }
 }

@@ -82,13 +82,45 @@ class SiteController extends Bus {
 
 	public function actionError()
 	{
-	    if($error=Yii::app()->errorHandler->error)
-	    {
-	    	if(Yii::app()->request->isAjaxRequest)
-	    		echo $error['message'];
-	    	else
-	        	$this->render('error', $error);
-	    }
+        if ($error = Yii::app()->errorHandler->error) {
+            if (Yii::app()->request->isAjaxRequest)
+                echo $error['message'];
+            else
+                $this->render('error', $error);
+        }
 	}
+
+    public function actionLogin() {
+        if (!isset($_GET['provider']))
+        {
+            $this->redirect('/site/index');
+            return;
+        }
+
+        try
+        {
+            Yii::import('ext.components.HybridAuthIdentity');
+            $haComp = new HybridAuthIdentity();
+            if (!$haComp->validateProviderName($_GET['provider']))
+                throw new CHttpException ('500', 'Invalid Action. Please try again.');
+
+            $haComp->adapter = $haComp->hybridAuth->authenticate($_GET['provider']);
+            $haComp->userProfile = $haComp->adapter->getUserProfile();
+            $haComp->login();  //further action based on successful login or re-direct user to the required url
+        }
+        catch (Exception $e)
+        {
+            //process error message as required or as mentioned in the HybridAuth 'Simple Sign-in script' documentation
+            $this->redirect('/site/index');
+            return;
+        }
+    }
+
+    public function actionSocialLogin()
+    {
+        Yii::import('ext.components.HybridAuthIdentity');
+        $path = Yii::getPathOfAlias('ext.hoauth');
+        require_once $path . '\\hybridauth\\social.php';
+    }
 
 }

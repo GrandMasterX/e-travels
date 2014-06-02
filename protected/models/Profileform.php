@@ -1,6 +1,6 @@
 <?php
 
-class Profile extends CActiveRecord {
+class Profileform extends CFormModel {
 
     public static function model($className = __CLASS__)
     {

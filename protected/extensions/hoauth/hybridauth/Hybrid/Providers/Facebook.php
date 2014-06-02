@@ -147,7 +147,6 @@ class Hybrid_Providers_Facebook extends Hybrid_Provider_Model
 			$this->user->profile->birthMonth = (int) $birthday_month;
 			$this->user->profile->birthYear  = (int) $birthday_year;
 		}
-
 		return $this->user->profile;
  	}
 

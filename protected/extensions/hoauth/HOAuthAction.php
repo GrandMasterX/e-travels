@@ -39,6 +39,8 @@ class HOAuthAction extends CAction
 	/**
 	 * @var string $model yii alias for user model (or class name, when this model class exists in import path)
 	 */
+    const ALIAS = 'ext.hoauth';
+
 	public $model = 'User';
 
 	/**
@@ -83,7 +85,7 @@ class HOAuthAction extends CAction
 	 *      when when social network returned email of existing local account. If set to
 	 *      `false` user will be automatically logged in without confirming account with password
 	 */
-	public $alwaysCheckPass = true;
+	public $alwaysCheckPass = false;
 
 	/**
 	 * @var string $userIdentityClass UserIdentity class that will be used to log user in.
@@ -93,7 +95,7 @@ class HOAuthAction extends CAction
 	/**
 	 * @var string $usernameAttribute you can specify the username attribute, when user must fill it
 	 */
-	public $usernameAttribute = false;
+	public $usernameAttribute = true;
 
 	/**
 	 * @var boolean $useUserReturnUrl enable/disable usage of CWebUser::returnUrl
@@ -118,7 +120,7 @@ class HOAuthAction extends CAction
 	/**
 	 * @var array $avaibleAtts Hybridauth attributes that support by this script (this a list of all available attributes in HybridAuth 2.0.11) + additional attributes (see $attributes property)
 	 */
-	protected $_avaibleAtts = array('identifier', 'profileURL', 'webSiteURL', 'photoURL', 'displayName', 'description', 'firstName', 'lastName', 'gender', 'language', 'age', 'birthDay', 'birthMonth', 'birthYear', 'email', 'emailVerified', 'phone', 'address', 'country', 'region', 'city', 'zip', 'birthDate', 'genderShort');
+	protected $_avaibleAtts = array('profileURL','photoURL', 'displayName','firstName', 'lastName', 'gender', 'language', 'age', 'birthDay', 'birthMonth', 'birthYear', 'email', 'emailVerified', 'phone', 'address', 'country', 'region', 'city', 'zip', 'birthDate', 'genderShort');
 
 	public function run()
 	{		
@@ -132,7 +134,7 @@ class HOAuthAction extends CAction
 				$this->useYiiUser = true;
 				// setting up yii-user's user model
 				Yii::import('application.modules.user.models.*');
-				Yii::import('hoauth.DummyUserIdentity');
+				Yii::import(self::ALIAS . '.DummyUserIdentity');
 
 				// preparing attributes array for `yii-user` module
 				if(!is_array($this->attributes))
@@ -166,8 +168,9 @@ class HOAuthAction extends CAction
 
 			if(isset($_GET['provider']))
 			{
-				Yii::import('hoauth.models.*');
-				$this->oAuth($_GET['provider']);
+                Yii::import(self::ALIAS . '.models.UserOAuth');
+                Yii::import(self::ALIAS . '.models.HUserInfoForm');
+                $this->oAuth($_GET['provider']);
 			}
 			else
 			{
@@ -231,11 +234,14 @@ class HOAuthAction extends CAction
 						$newUser = true;
 					}
 
-					if($this->alwaysCheckPass || $user->isNewRecord)
-						if(method_exists($this->controller, 'hoauthProcessUser'))
-							$user = $this->controller->hoauthProcessUser($user, $newUser);
-						else
-							$user = $this->processUser($user, $userProfile);
+					/*if($this->alwaysCheckPass || $user->isNewRecord)
+						if(method_exists($this->controller, 'hoauthProcessUser')) {
+                            $this->processUser($user, $userProfile);
+                        } else {
+                            $user = $this->processUser($user, $userProfile);
+                        }
+                    */
+                    User::setSocialData($oAuth->profile,$user->id);
 				}
 
 				// checking if current user is not banned or anything else
@@ -243,6 +249,7 @@ class HOAuthAction extends CAction
 				// $accessCode == 1 - user may login
 				// $accessCode == 2 - user may login, but not now (e.g. the email should be verified and activated)
 				$accessCode = 1;
+
 				if(method_exists($this->controller, 'hoauthCheckAccess'))
 					$accessCode = $this->controller->hoauthCheckAccess($user);
 				elseif($this->useYiiUser)
@@ -347,10 +354,8 @@ class HOAuthAction extends CAction
 			if($prop->isStatic())
 				Profile::$regMode = true;
 		}
-
 		if($user->isNewRecord)
 			$this->populateModel($user, $userProfile);
-
 		// trying to fill email and username fields
 		// NOTE: we display `username` field in our form only if it is required by the model
 		if($this->usernameAttribute && !$user->isAttributeRequired($this->usernameAttribute))
@@ -460,7 +465,7 @@ class HOAuthAction extends CAction
 					$att = $profile->$pAtt;
 				}
 				if(!empty($att))
-					$user->$attribute = $att;
+                    $user->$attribute = $att;
 			}else{
 				$user->$attribute = $pAtt;
 			}

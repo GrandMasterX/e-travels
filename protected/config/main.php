@@ -23,6 +23,7 @@ return array(
         'application.vendors',
         'application.modules.mobile',
         'application.modules.privatoffice',
+        'application.modules.admin',
         'ext.eoauth.*',
         'ext.eoauth.lib.*',
         'ext.lightopenid.*',
@@ -31,6 +32,7 @@ return array(
     'modules' => array(
         'mobile',
         'privatoffice',
+        'admin',
     ),
 
 	// application components
@@ -51,13 +53,18 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
+        'authManager'=>array(
+            'class'=>'CDbAuthManager',
+            'defaultRoles' => array('guest'),
+        ),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
             'showScriptName'=>false,
 			'rules'=>array(
                 //'mobile'=>'mobile/default/index',
                 '' => 'site/index',
-                'login/<service:(google|google-oauth|yandex|yandex-oauth|twitter|linkedin|vkontakte|facebook|steam|yahoo|mailru|moikrug|github|live|odnoklassniki)>' => 'site/login',
+                //'/site/oauth?provider=<provider>' => 'site/index',
+                //'login/<service:(google|google-oauth|yandex|yandex-oauth|twitter|linkedin|vkontakte|facebook|steam|yahoo|mailru|moikrug|github|live|odnoklassniki)>' => 'site/login',
                 'login' => 'site/login',
                 'logout' => 'site/logout',
                 'contacts' => 'site/contacts',
@@ -65,6 +72,9 @@ return array(
                 'reservation' => 'site/reservation',
                 'mobile' => 'mobile/default/index',
                 'privatoffice' => 'privatoffice/default/index',
+                'privatoffice/profiles' => 'privatoffice/default/profiles',
+                'admin'=> 'admin/default/index',
+                'admin/cities'=> 'admin/default/cities',
                 '<alias>' => 'site/content',
                 '<controller>/<action>'=>'<controller>/<action>',
 			),
@@ -89,7 +99,16 @@ return array(
             'class' => 'CFileCache',
         ),
 	),
-
+    'params' => array(
+        'adminEmail' => 'zgrandmasterz@gmail.com',
+        'loginDuration' => 3600 * 24 * 30,
+        'minPasswordLength' => 6,
+        'address' => 'Moscow',
+        'defaultLanguage' => 'Рус',
+        'defaultPageSize' => 50,
+        'sizeOptions' => array(10, 25, 50, 100, 200, 500, 1000, 3000),
+        'currentLanguageTitle' => 'Рус',
+    ),
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	//'params'=>require(dirname(__FILE__).'/params.php'),
