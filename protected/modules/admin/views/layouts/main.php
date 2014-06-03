@@ -18,7 +18,16 @@
 
 <body>
 <input type="hidden" id="formlang" value="ru">
-<? echo $content;?>
+    <?php $this->widget('widgets.HeaderAdminWidget'); ?>
+    <div class="container-fluid" style="margin-top:50px;">
+        <div class="row-fluid">
+            <div class="span3">
+            </div>
+            <div class="span9">
+                <? echo $content;?>
+            </div>
+        </div>
+    </div>
 </body>
 
 

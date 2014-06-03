@@ -7,6 +7,7 @@
 // CWebApplication properties can be configured here.
 Yii::setPathOfAlias('modules', dirname(__FILE__).'/../modules');
 Yii::setPathOfAlias('widgets', dirname(__FILE__).'/../components/widgets');
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Yii Blog Demo',
@@ -28,8 +29,17 @@ return array(
         'ext.eoauth.lib.*',
         'ext.lightopenid.*',
         'ext.eauth.services.*',
+        'ext.bootstrap.*',
 	),
     'modules' => array(
+        'gii'=>array(
+            'class'=>'system.gii.GiiModule',
+            'password'=>'admin',
+            'generatorPaths'=>array(
+                'bootstrap.gii',
+            ),
+            'ipFilters'=>array('127.0.0.1','::1'),
+        ),
         'mobile',
         'privatoffice',
         'admin',
@@ -49,6 +59,10 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 		),
+        'bootstrap' => array(
+            'class' => 'ext.bootstrap.components.Bootstrap',
+            'responsiveCss' => true,
+        ),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
@@ -74,9 +88,13 @@ return array(
                 'privatoffice' => 'privatoffice/default/index',
                 'privatoffice/profiles' => 'privatoffice/default/profiles',
                 'admin'=> 'admin/default/index',
-                'admin/cities'=> 'admin/default/cities',
+                //'admin/city'=> 'admin/city/index',
+                //'admin/cities/add'=> 'admin/cities/add',
                 '<alias>' => 'site/content',
                 '<controller>/<action>'=>'<controller>/<action>',
+                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
 		'log'=>array(
@@ -86,12 +104,6 @@ return array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
-				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
 			),
 		),
         'cache' => array(

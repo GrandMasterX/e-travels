@@ -1,0 +1,1225 @@
+2014/06/03 10:50:01 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbExtendedGridView" is invalid. Make sure it points to an existing directory or file.' in Z:\home\localhost\www\framework\yiilite.php:187
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(5916): YiiBase::import('bootstrap.widge...', true)
+#1 Z:\home\localhost\www\framework\yiilite.php(3427): CWidgetFactory->createWidget(Object(DefaultController), 'bootstrap.widge...', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(3443): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): CBaseController->widget('bootstrap.widge...', Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#5 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#6 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#7 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): CController->renderPartial('grid', Array)
+#8 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#9 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#10 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#11 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#12 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): CController->render('cities', Array)
+#13 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#14 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#15 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#16 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#18 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#19 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#20 Z:\home\localhost\www\index.php(22): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 10:50:03 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbExtendedGridView" is invalid. Make sure it points to an existing directory or file.' in Z:\home\localhost\www\framework\yiilite.php:187
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(5916): YiiBase::import('bootstrap.widge...', true)
+#1 Z:\home\localhost\www\framework\yiilite.php(3427): CWidgetFactory->createWidget(Object(DefaultController), 'bootstrap.widge...', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(3443): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): CBaseController->widget('bootstrap.widge...', Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#5 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#6 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#7 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): CController->renderPartial('grid', Array)
+#8 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#9 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#10 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#11 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#12 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): CController->render('cities', Array)
+#13 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#14 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#15 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#16 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#18 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#19 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#20 Z:\home\localhost\www\index.php(22): CApplication->run()
+#21 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 10:50:24 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:53:53 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:53:54 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:57:57 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:57:59 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:58:56 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 10:58:56 [error] [php] include(ButtonColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\framework\yiilite.php:244)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(87): import()
+#1 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(388): createComponent()
+#2 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(122): TbExtendedGridView->initColumns()
+#3 Z:\home\localhost\www\framework\zii\widgets\grid\CGridView.php(359): TbExtendedGridView->initColumns()
+#4 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbGridView.php(66): TbExtendedGridView->init()
+#5 Z:\home\localhost\www\protected\extensions\bootstrap\widgets\TbExtendedGridView.php(249): TbExtendedGridView->init()
+#6 Z:\home\localhost\www\framework\yiilite.php(3428): TbExtendedGridView->init()
+#7 Z:\home\localhost\www\framework\yiilite.php(3443): DefaultController->createWidget()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\grid.php(204): DefaultController->widget()
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#12 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(5): DefaultController->renderPartial()
+#13 Z:\home\localhost\www\framework\yiilite.php(3419): require()
+#14 Z:\home\localhost\www\framework\yiilite.php(3398): DefaultController->renderInternal()
+#15 Z:\home\localhost\www\framework\yiilite.php(3822): DefaultController->renderFile()
+#16 Z:\home\localhost\www\framework\yiilite.php(3790): DefaultController->renderPartial()
+#17 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(41): DefaultController->render()
+#18 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#19 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#20 Z:\home\localhost\www\framework\yiilite.php(3555): DefaultController->runAction()
+#21 Z:\home\localhost\www\framework\yiilite.php(3545): DefaultController->runActionWithFilters()
+#22 Z:\home\localhost\www\framework\yiilite.php(1746): DefaultController->run()
+#23 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#24 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#25 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/cities
+2014/06/03 11:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/site_menu/edit".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/site_menu...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/site_menu/edit?type=1&parent_id=
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 11:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 11:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cities".' in Z:\home\localhost\www\framework\yiilite.php:3668
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3550): CController->missingAction('cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#2 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#3 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cities".' in Z:\home\localhost\www\framework\yiilite.php:3668
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3550): CController->missingAction('cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#2 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#3 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:51:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cities".' in Z:\home\localhost\www\framework\yiilite.php:3668
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3550): CController->missingAction('cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#2 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#3 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/index
+---
+2014/06/03 11:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/index
+---
+2014/06/03 11:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:52:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 11:58:28 [error] [exception.CException] exception 'CException' with message 'Property "Content.is_available" is not defined.' in Z:\home\localhost\www\framework\yiilite.php:610
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(7249): CComponent->__get('is_available')
+#1 Z:\home\localhost\www\protected\components\widgets\views\admin\cities.php(18): CActiveRecord->__get('is_available')
+#2 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#3 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#4 Z:\home\localhost\www\framework\yiilite.php(6051): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#5 Z:\home\localhost\www\protected\components\widgets\CitiesAdminWidget.php(17): CWidget->render('admin/cities', Array, true)
+#6 Z:\home\localhost\www\protected\components\widgets\CitiesAdminWidget.php(11): CitiesAdminWidget->renderBlock()
+#7 Z:\home\localhost\www\framework\yiilite.php(3444): CitiesAdminWidget->run()
+#8 Z:\home\localhost\www\protected\modules\admin\views\default\cities.php(1): CBaseController->widget('widgets.CitiesA...')
+#9 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#10 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#11 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#12 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#13 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(13): CController->render('cities', Array)
+#14 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#15 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#16 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#17 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#19 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#20 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#21 Z:\home\localhost\www\index.php(22): CApplication->run()
+#22 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 16:38:55 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:1)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:38:56 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:1)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:39:50 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:1)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:40:23 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:1)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:41:10 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:1)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:41:24 [error] [php] Undefined variable: model (Z:\home\localhost\www\protected\views\site\index.php:13)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3822): SiteController->renderFile()
+#1 Z:\home\localhost\www\framework\yiilite.php(3790): SiteController->renderPartial()
+#2 Z:\home\localhost\www\protected\controllers\SiteController.php(37): SiteController->render()
+#3 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#4 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#5 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#6 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#7 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#8 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#9 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/form/ajax-loader-line.gif".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('images/form/aja...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/form/ajax-loader-line.gif
+HTTP_REFERER=http://localhost/
+---
+2014/06/03 16:41:34 [error] [php] Undefined offset: 1 (Z:\home\localhost\www\protected\components\Api.php:50)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#1 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#2 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#3 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#4 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#5 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#6 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:41:34 [error] [php] Undefined offset: 1 (Z:\home\localhost\www\protected\components\Api.php:50)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(4058): SiteController->actionIndex()
+#1 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#2 Z:\home\localhost\www\framework\yiilite.php(3555): SiteController->runAction()
+#3 Z:\home\localhost\www\framework\yiilite.php(3545): SiteController->runActionWithFilters()
+#4 Z:\home\localhost\www\framework\yiilite.php(1746): SiteController->run()
+#5 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#6 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/
+2014/06/03 16:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/form/ajax-loader-line.gif".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('images/form/aja...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/form/ajax-loader-line.gif
+HTTP_REFERER=http://localhost/
+---
+2014/06/03 17:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/citites".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/citites')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/citites
+---
+2014/06/03 17:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/add')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:38:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cityAdd')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ci...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:40:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/cityAdd".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ci...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/cityAdd
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:40:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+---
+2014/06/03 17:40:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/add".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/ad...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities/add
+HTTP_REFERER=http://localhost/admin/cities
+---
+2014/06/03 17:44:54 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "cities".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(13): CController->render('cities', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:45:05 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "cities".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(13): CController->render('cities', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:51:51 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "cities".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('cities', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\DefaultController.php(13): CController->render('cities', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): DefaultController->actionCities()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('cities')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/default/c...')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:53:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:54:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:54:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 17:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/cities/index
+---
+2014/06/03 17:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 18:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 18:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 18:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities/in...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 18:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cities/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('cities/index')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/03 18:00:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/city/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city/inde...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/city/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city/inde...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/city/index".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city/inde...')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:01:17 [error] [exception.CException] exception 'CException' with message 'CityController cannot find the requested view "index".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('index', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php(14): CController->render('index', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): CityController->actionIndex()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('index')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city/inde...')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:01:22 [error] [exception.CException] exception 'CException' with message 'CityController cannot find the requested view "index".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('index', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php(14): CController->render('index', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): CityController->actionIndex()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:01:23 [error] [exception.CException] exception 'CException' with message 'CityController cannot find the requested view "index".' in Z:\home\localhost\www\framework\yiilite.php:3831
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('index', Array, true)
+#1 Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php(14): CController->render('index', Array)
+#2 Z:\home\localhost\www\framework\yiilite.php(4058): CityController->actionIndex()
+#3 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#4 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#5 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('')
+#7 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city')
+#8 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\index.php(22): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/city
+---
+2014/06/03 18:03:47 [error] [exception.CException] exception 'CException' with message 'Property "Content.desciption" is not defined.' in Z:\home\localhost\www\framework\yiilite.php:610
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(7249): CComponent->__get('desciption')
+#1 Z:\home\localhost\www\framework\yiilite.php(5833): CActiveRecord->__get('desciption')
+#2 Z:\home\localhost\www\framework\yiilite.php(5655): CHtml::resolveValue(Object(Content), 'desciption')
+#3 Z:\home\localhost\www\framework\yiilite.php(5322): CHtml::activeInputField('text', Object(Content), 'desciption', Array)
+#4 Z:\home\localhost\www\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Content), 'desciption', Array)
+#5 Z:\home\localhost\www\protected\modules\admin\views\city\add.php(18): CActiveForm->textField(Object(Content), 'desciption', Array)
+#6 Z:\home\localhost\www\framework\yiilite.php(3419): require('Z:\home\localho...')
+#7 Z:\home\localhost\www\framework\yiilite.php(3398): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#8 Z:\home\localhost\www\framework\yiilite.php(3822): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#9 Z:\home\localhost\www\framework\yiilite.php(3790): CController->renderPartial('add', Array, true)
+#10 Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php(19): CController->render('add', Array)
+#11 Z:\home\localhost\www\framework\yiilite.php(4058): CityController->actionAdd()
+#12 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams(Array)
+#13 Z:\home\localhost\www\framework\yiilite.php(3555): CController->runAction(Object(CInlineAction))
+#14 Z:\home\localhost\www\framework\yiilite.php(3545): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\home\localhost\www\framework\yiilite.php(1746): CController->run('add')
+#16 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/city/add')
+#17 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#18 Z:\home\localhost\www\index.php(22): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/city/add
+HTTP_REFERER=http://localhost/admin/city
+---

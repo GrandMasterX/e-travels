@@ -1,4 +1,4 @@
-<?  if($model) {
+<?  if(!empty($model)) {
         echo $model->description;
     }
 ?>
@@ -10,7 +10,7 @@
 <div class="wrapper pad1">
     <div class="srcBlock">
     </div>
-    <?  if($model) {
+    <?  if(!empty($model)) {
             echo $model->content;
         }
     ?>

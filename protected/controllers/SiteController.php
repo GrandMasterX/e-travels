@@ -80,16 +80,6 @@ class SiteController extends Bus {
         echo json_encode($tpl);
     }
 
-	public function actionError()
-	{
-        if ($error = Yii::app()->errorHandler->error) {
-            if (Yii::app()->request->isAjaxRequest)
-                echo $error['message'];
-            else
-                $this->render('error', $error);
-        }
-	}
-
     public function actionLogin() {
         if (!isset($_GET['provider']))
         {
