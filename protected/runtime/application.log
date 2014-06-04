@@ -1223,3 +1223,57 @@ Stack trace:
 REQUEST_URI=/admin/city/add
 HTTP_REFERER=http://localhost/admin/city
 ---
+2014/06/04 11:28:55 [warning] [application] Failed to set unsafe attribute "name" of "Content".
+2014/06/04 11:29:16 [error] [php] Undefined index: Content (Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php:19)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(3555): CityController->runAction()
+#1 Z:\home\localhost\www\framework\yiilite.php(3545): CityController->runActionWithFilters()
+#2 Z:\home\localhost\www\framework\yiilite.php(1746): CityController->run()
+#3 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#4 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#5 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/city/add
+2014/06/04 11:29:22 [warning] [application] Failed to set unsafe attribute "name" of "Content".
+2014/06/04 11:36:14 [error] [php] Undefined index: Content (Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php:35)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(4056): CInlineAction->runWithParamsInternal()
+#1 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#2 Z:\home\localhost\www\framework\yiilite.php(3555): CityController->runAction()
+#3 Z:\home\localhost\www\framework\yiilite.php(3545): CityController->runActionWithFilters()
+#4 Z:\home\localhost\www\framework\yiilite.php(1746): CityController->run()
+#5 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#6 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/city/edit?id=2
+2014/06/04 11:36:17 [error] [php] Undefined index: Content (Z:\home\localhost\www\protected\modules\admin\controllers\CityController.php:35)
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(4056): CInlineAction->runWithParamsInternal()
+#1 Z:\home\localhost\www\framework\yiilite.php(3570): CInlineAction->runWithParams()
+#2 Z:\home\localhost\www\framework\yiilite.php(3555): CityController->runAction()
+#3 Z:\home\localhost\www\framework\yiilite.php(3545): CityController->runActionWithFilters()
+#4 Z:\home\localhost\www\framework\yiilite.php(1746): CityController->run()
+#5 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController()
+#6 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\index.php(22): CWebApplication->run()
+REQUEST_URI=/admin/city/edit?id=2
+2014/06/04 11:38:29 [warning] [application] Failed to set unsafe attribute "available" of "Content".
+2014/06/04 11:40:47 [warning] [application] Failed to set unsafe attribute "available" of "Content".
+2014/06/04 11:41:01 [warning] [application] Failed to set unsafe attribute "available" of "Content".
+2014/06/04 11:41:33 [warning] [application] Failed to set unsafe attribute "available" of "Content".
+2014/06/04 11:43:23 [warning] [application] Failed to set unsafe attribute "available" of "Content".
+2014/06/04 12:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/cities".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/cities')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/cities
+---
+2014/06/04 12:03:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/citiy".' in Z:\home\localhost\www\framework\yiilite.php:1750
+Stack trace:
+#0 Z:\home\localhost\www\framework\yiilite.php(1666): CWebApplication->runController('admin/citiy')
+#1 Z:\home\localhost\www\framework\yiilite.php(1191): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/citiy
+---

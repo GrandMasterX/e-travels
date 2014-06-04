@@ -14,7 +14,8 @@ class Content extends CActiveRecord {
     public function rules()
     {
         return array(
-            array('id, alias, description, content', 'safe'),
+            array('name, alias, description, content','required'),
+            array('id, name, alias, description, content, is_blocked, vailable', 'safe'),
         );
     }
 }

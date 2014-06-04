@@ -17,10 +17,16 @@
         <?php echo $form->error($model,'name'); ?>
         <?php echo $form->textField($model,'alias',array('placeholder'=>'alias','class'=>'form-control')); ?>
         <?php echo $form->error($model,'alias'); ?>
-        <?php echo $form->textField($model,'description',array('placeholder'=>'description','class'=>'form-control')); ?>
+        <?php echo $form->textArea($model,'description',array('placeholder'=>'description','class'=>'form-control')); ?>
         <?php echo $form->error($model,'description'); ?>
-        <?php echo $form->textField($model,'content',array('placeholder'=>'content','class'=>'form-control')); ?>
+        <?php echo $form->textArea($model,'content',array('placeholder'=>'content','class'=>'form-control')); ?>
         <?php echo $form->error($model,'content'); ?>
+        <?php echo $form->label($model,'is_blocked'); ?>
+        <?php echo $form->CheckBox($model,'is_blocked'); ?>
+        <?php echo $form->error($model,'is_blocked'); ?>
+        <?php echo $form->label($model,'available'); ?>
+        <?php echo $form->CheckBox($model,'available'); ?>
+        <?php echo $form->error($model,'available'); ?>
     </div>
     <div class="row submit">
         <?php echo CHtml::submitButton('Сохранить',array('class'=>'btn btn-lg btn-primary btn-block')); ?>

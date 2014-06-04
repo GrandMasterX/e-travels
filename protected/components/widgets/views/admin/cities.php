@@ -33,10 +33,9 @@
             <td><? echo $city->is_blocked;?></td>
             <td><? echo $city->available;?> </td>
             <td>
-                <a title="<? ($city->is_blocked == 1)?>Заблокирован" href="/admin/site_menu?type=1&amp;parent_id=1"><i class="glyphicon glyphicon-asterisk"></i></a>
-                <a title="Перейти к подменю" href="/admin/site_menu?type=1&amp;parent_id=1"><i class="glyphicon glyphicon-asterisk"></i></a>
                 <a title="Редактирование" href="/admin/city/edit?id=<? echo $city->id?>"><i class="glyphicon glyphicon-pencil"></i></a>
-                <a title="Удалить" onclick="return confirm('Удалить этот пункт меню и все подменю?');" href="/admin/city/delete?id=<? echo $city->id?>"><i class="glyphicon glyphicon-remove"></i></a>
+                <a title="Удалить" onclick="return confirm('Вы уверены?');" href="/admin/city/delete?id=<? echo $city->id;?>&is_blocked=<? echo $city->is_blocked;?>"><i class="glyphicon glyphicon-remove"></i></a>
+                <a title="<? echo ($city->available == 1) ? 'Заблокировать': 'Разблокировать'?>" onclick="return confirm('Вы уверены?');" href="/admin/city/available?id=<? echo $city->id;?>&available=<? echo $city->available;?>"><i class="glyphicon glyphicon-remove"></i></a>
             </td>
         </tr>
     <? endforeach;?>

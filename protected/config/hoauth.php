@@ -32,6 +32,12 @@ return
                 "scope"   => "email, user_about_me, user_birthday, user_hometown, user_website, offline_access, read_stream, publish_stream, read_friendlists", // you can change the data, that will be asked from user
                 "display" => "popup" // <- this one
 			),
+            "Vkontakte" => array (
+                "enabled" => true,
+                "display" => "popup",
+                "keys"    => array ( "id" => "4396889", "secret" => "dMXZByayRpqXAsGdjZYo" ),
+                "scope"   => "notifications,offline,wall,first_name,friends,email,notify,mail,last_name,nickname,screen_name,sex,bdate,timezone,photo_rec,photo_big",
+            ),
 		),
 
 		// if you want to enable logging, set 'debug_mode' to true  then provide a writable file by the web server on "debug_file"
